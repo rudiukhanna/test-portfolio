@@ -59,12 +59,17 @@ body {
     font-weight: 500;
 }
 
+.text-h3 {
+    color: var(--white-color);
+    font-size: 21px;
+    font-weight: 500;
+}
+
 .text-p {
     max-width: 540px;
     color: var(--gray-color);
     font-size: 16px;
     line-height: 164.063%; 
-    margin-bottom: 60px;
 }
 
 .btn {
@@ -135,6 +140,10 @@ nav>ul a:hover {
     margin-bottom: 60px;
 }
 
+.hero-p {
+    margin-bottom: 60px;
+}
+
 .hero__text-btn {
     font-size: 16px;
 }
@@ -149,6 +158,39 @@ nav>ul a:hover {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Numbers */
+.numbers {
+    padding: 100px 0;
+    background-color: var(--accent-color);
+}
+
+.numbers__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 49px;
+}
+
+.numbers__grid-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-p {
+    color: var(--white-color);
+}
+
+
+
+
+
 
 
 
