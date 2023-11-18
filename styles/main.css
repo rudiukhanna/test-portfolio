@@ -187,6 +187,34 @@ nav>ul a:hover {
     color: var(--white-color);
 }
 
+/* Skills */
+.skills {
+    padding: 102px 0;
+}
+
+.skills__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-h2 {
+}
+.skills-h2 {
+}
+.text-p {
+}
+.skills-p {
+}
+.skills-img {
+    width: 555px;
+}
+
 
 
 
