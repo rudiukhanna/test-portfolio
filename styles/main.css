@@ -203,6 +203,19 @@ nav>ul a:hover {
     flex-direction: column;
 }
 
+.progress-bar {
+    display: flex;
+    width: 250px;
+    height: 4px;
+    background-color: #999;
+    margin-bottom: 10px;
+  }
+
+  .progress-bar-completed {
+    background-color: #34547A;
+    width: 75%;
+  }
+
 .text-h2 {
 }
 .skills-h2 {
