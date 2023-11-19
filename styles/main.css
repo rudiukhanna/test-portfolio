@@ -211,21 +211,31 @@ nav>ul a:hover {
     margin-bottom: 10px;
   }
 
-  .progress-bar-completed {
+.progress-bar-completed {
     background-color: #34547A;
     width: 75%;
-  }
+}
 
-.text-h2 {
-}
-.skills-h2 {
-}
-.text-p {
-}
-.skills-p {
-}
 .skills-img {
     width: 555px;
+}
+
+/* Video */
+
+.video {
+    padding: 100px 0;
+    background-color: var(--silver-color);
+}
+
+.video-p {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 57px;
+}
+
+video {
+    cursor: pointer;
+    width: 100%;
 }
 
 
