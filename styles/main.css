@@ -238,6 +238,64 @@ video {
     width: 100%;
 }
 
+/* Projects */
+.projects {
+    padding-top: 28px;
+}
+
+.grid__projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 0;
+}
+
+.grid__projects-item img{
+    max-width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+    background-image: url(../img/projects/project-1.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .card-2 {
+    background-image: url(../img/projects/project-2.png);
+  }
+
+  .card-view-icon {
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .card-filter {
+    position: absolute;
+    background-color: #34547A;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .card:hover .card-view-icon {
+    opacity: 1;
+  }
+  .card:hover .card-filter {
+    opacity: 0.8;
+  }
+
+
 
 
 
