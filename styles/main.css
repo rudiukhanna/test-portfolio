@@ -295,6 +295,18 @@ video {
     opacity: 0.8;
   }
 
+  /* Partners */
+  .partners {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.grid-partners {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
 
 
 
